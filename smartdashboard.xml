@@ -1,0 +1,19 @@
+<xml version="1.0">
+<dashboard>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.MjpgStreamViewerImpl">
+		<location x="82" y="141"/>
+		<width>270</width>
+		<height>191</height>
+		<property name="MJPG Server URL" value="10.51.81.2"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="136" y="79"/>
+		<property name="Text" value="Robot Status"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="88" y="72"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
